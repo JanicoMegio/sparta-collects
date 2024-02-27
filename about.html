@@ -47,6 +47,11 @@
         width: auto;
         height: 300px;
       }
+      @media screen and (max-width: 500px) {
+        .banner-images {
+          display: none;
+        }
+      }
     </style>
   </head>
   <body class="d-flex flex-column">
@@ -103,7 +108,7 @@
           </p>
           <img
             src="images/other-image/banner-image.png"
-            class="img-fluid"
+            class="img-fluid banner-images"
             alt="team"
             style="width: 100%; height: 400px"
           />
