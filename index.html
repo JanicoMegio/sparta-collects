@@ -12,11 +12,8 @@
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <!-- Bootstrap icons-->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="css/styles.css" rel="stylesheet" />
     <style>
       .btn-primary {
@@ -42,11 +39,11 @@
         background-position: center;
 
         }
-      #collection {
+      #Investigation{
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1073%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(254%2c 123%2c 10%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c537.105C100.623%2c558.028%2c219.247%2c525.359%2c289.296%2c450.153C358.018%2c376.372%2c309.654%2c252.257%2c350.98%2c160.287C391.895%2c69.232%2c529.996%2c24.166%2c525.523%2c-75.559C521.145%2c-173.165%2c408.266%2c-227.043%2c330.929%2c-286.751C266.247%2c-336.689%2c188.025%2c-355.271%2c115.204%2c-392.347C21.947%2c-439.829%2c-52.961%2c-544.875%2c-157.168%2c-535.264C-261.189%2c-525.67%2c-351.289%2c-438.361%2c-398.153%2c-345.001C-442.095%2c-257.462%2c-406.641%2c-154.599%2c-397.186%2c-57.107C-389.9%2c18.016%2c-379.564%2c90.377%2c-349.226%2c159.486C-318.502%2c229.474%2c-272.989%2c287.909%2c-221.092%2c344.025C-153.286%2c417.344%2c-97.776%2c516.774%2c0%2c537.105' fill='%23d56301'%3e%3c/path%3e%3cpath d='M1440 908.308C1511.296 905.3109999999999 1589.156 924.0509999999999 1648.352 884.202 1707.301 844.519 1721.656 766.672 1748.274 700.784 1773.695 637.86 1806.077 575.819 1800.252 508.204 1794.258 438.624 1762.12 373.279 1715.576 321.212 1669.458 269.621 1602.409 248.611 1540.522 217.652 1464.27 179.507 1394.094 102.41199999999998 1310.366 118.50900000000001 1227.067 134.52300000000002 1190.84 231.86599999999999 1134.903 295.632 1078.569 359.851 992.4300000000001 409.348 980.9739999999999 494.002 969.527 578.591 1033.532 652.27 1076.675 725.925 1115.751 792.636 1150.983 867.519 1220.079 902.204 1286.975 935.784 1365.215 911.452 1440 908.308' fill='%23fe963c'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1073'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
         background-size: cover;
       }
-      #Investigation{
+      aside {
         background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1073%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(254%2c 123%2c 10%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c537.105C100.623%2c558.028%2c219.247%2c525.359%2c289.296%2c450.153C358.018%2c376.372%2c309.654%2c252.257%2c350.98%2c160.287C391.895%2c69.232%2c529.996%2c24.166%2c525.523%2c-75.559C521.145%2c-173.165%2c408.266%2c-227.043%2c330.929%2c-286.751C266.247%2c-336.689%2c188.025%2c-355.271%2c115.204%2c-392.347C21.947%2c-439.829%2c-52.961%2c-544.875%2c-157.168%2c-535.264C-261.189%2c-525.67%2c-351.289%2c-438.361%2c-398.153%2c-345.001C-442.095%2c-257.462%2c-406.641%2c-154.599%2c-397.186%2c-57.107C-389.9%2c18.016%2c-379.564%2c90.377%2c-349.226%2c159.486C-318.502%2c229.474%2c-272.989%2c287.909%2c-221.092%2c344.025C-153.286%2c417.344%2c-97.776%2c516.774%2c0%2c537.105' fill='%23d56301'%3e%3c/path%3e%3cpath d='M1440 908.308C1511.296 905.3109999999999 1589.156 924.0509999999999 1648.352 884.202 1707.301 844.519 1721.656 766.672 1748.274 700.784 1773.695 637.86 1806.077 575.819 1800.252 508.204 1794.258 438.624 1762.12 373.279 1715.576 321.212 1669.458 269.621 1602.409 248.611 1540.522 217.652 1464.27 179.507 1394.094 102.41199999999998 1310.366 118.50900000000001 1227.067 134.52300000000002 1190.84 231.86599999999999 1134.903 295.632 1078.569 359.851 992.4300000000001 409.348 980.9739999999999 494.002 969.527 578.591 1033.532 652.27 1076.675 725.925 1115.751 792.636 1150.983 867.519 1220.079 902.204 1286.975 935.784 1365.215 911.452 1440 908.308' fill='%23fe963c'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1073'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
         background-size: cover;
       }
@@ -95,7 +92,7 @@
                 <a class="nav-link" href="faq.html">FAQ</a>
               </li>
               <li class="nav-item mx-2">
-                <a class="btn btn-outline-primary rounded-5" href="contact.html"
+                <a class="btn btn-lg btn-outline-primary rounded-5" href="contact.html"
                   >Talk to Us</a
                 >
               </li>
@@ -104,7 +101,7 @@
         </div>
       </nav>
       <!-- Header-->
-      <header class="py-5">
+      <header class="py-5" id="homepage">
         <div class="container px-5 py-5 my-5">
           <div class="row gx-5 align-items-center justify-content-center">
             <div class="col-lg-8 col-xl-5 col-xxl-5">
@@ -158,11 +155,11 @@
               </div>
               <div class="col-md-6">
                 <ul class="list-unstyled">
-                    <li class="fs-4 mb-4"><span class=""> We commit to provide our clients with the best possible outcome, service and results.</span></li>
-                    <li class="fs-4"><i class="bi bi-check-circle-fill "></i><span class=""> We guarantee to protect the best interest of our clients and employees at all time.</span></li>
-                    <li class="fs-4"><i class="bi bi-check-circle-fill "></i><span class=""> We make sure that each employee is committed to SCMSI and to the tasks given.</span></li>
-                    <li class="fs-4"><i class="bi bi-check-circle-fill "></i><span class=""> We ensure to follow the processes and work on our standards to provide you a quality service and complete transparency all throughout our processes.</span></li>
-                    <li class="fs-4"><i class="bi bi-check-circle-fill "></i><span class=""> We secure to maintain a positive attitude to our workplace.</span></li>
+                    <li class="fs-4 mb-4 fw-bold"><span class=""> We commit to provide our clients with the best possible outcome, service and results.</span></li>
+                    <li class="fs-4 mb-4 fw-bold"></i><span class=""> We guarantee to protect the best interest of our clients and employees at all time.</span></li>
+                    <li class="fs-4 mb-4 fw-bold"></i><span class=""> We make sure that each employee is committed to SCMSI and to the tasks given.</span></li>
+                    <li class="fs-4 mb-4 fw-bold"></i><span class=""> We ensure to follow the processes and work on our standards to provide you a quality service and complete transparency all throughout our processes.</span></li>
+                    <li class="fs-4 mb-4 fw-bold"></i><span class=""> We secure to maintain a positive attitude to our workplace.</span></li>
                 </ul>
               </div>
           </div>
@@ -381,7 +378,7 @@
       </section>
 
       <!-- Client list section -->
-      <section class="py-5 py-xl-6">
+      <section class="py-5 py-xl-6" id="client">
         <div class="container mb-5 mb-md-6">
           <div class="row justify-content-md-center">
             <div
@@ -552,39 +549,23 @@
               </div>
             </div>
           </div>
-          <!-- Call to action-->
-          <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
+          <!-- aside talk to us -->
+          <aside class="rounded-3 p-4 p-sm-5 mt-5">
             <div
               class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start"
             >
               <div class="mb-4 mb-xl-0">
-                <div class="fs-3 fw-bold text-white">
-                  New products, delivered to you.
-                </div>
-                <div class="text-white-50">
-                  Sign up for our newsletter for the latest updates.
+                <div class="fs-2 fw-bold text-white">
+                 Ready to partner with us? <br> Schedule a meeting today!
                 </div>
               </div>
               <div class="ms-xl-4">
-                <div class="input-group mb-2">
-                  <input
-                    class="form-control"
-                    type="text"
-                    placeholder="Email address..."
-                    aria-label="Email address..."
-                    aria-describedby="button-newsletter"
-                  />
                   <button
-                    class="btn btn-outline-light"
-                    id="button-newsletter"
+                    class="btn btn-lg btn-dark fw-bold"
                     type="button"
                   >
-                    Sign up
+                    TALK TO US
                   </button>
-                </div>
-                <div class="small text-white-50">
-                  We care about privacy, and will never share your data.
-                </div>
               </div>
             </div>
           </aside>
@@ -592,28 +573,91 @@
       </section>
     </main>
     <!-- Footer-->
-    <footer class="bg-dark py-4 mt-auto">
-      <div class="container px-5">
-        <div
-          class="row align-items-center justify-content-between flex-column flex-sm-row"
-        >
-          <div class="col-auto">
-            <div class="small m-0 text-white">
-              Copyright &copy; Your Website 2023
-            </div>
+    <footer
+          class="text-center text-lg-start text-dark bg-white">
+    <!-- Section: Social media -->
+    <section
+             class="d-flex justify-content-between p-4 text-white"
+             style="background-color: #fe7b0a"
+             >
+      <!-- Left -->
+      <div class="fw-bold">
+        <span>Get connected with us on social networks:</span>
+      </div>
+    </section>
+   
+    <section class="fs-5">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <img src="images/logo.PNG" alt="sparta-logo" style="height: 100px; width: 250px;">
           </div>
-          <div class="col-auto">
-            <a class="link-light small" href="#!">Privacy</a>
-            <span class="text-white mx-1">&middot;</span>
-            <a class="link-light small" href="#!">Terms</a>
-            <span class="text-white mx-1">&middot;</span>
-            <a class="link-light small" href="#!">Contact</a>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">About Sparta</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#homepage" class="text-dark">Homepage</a>
+            </p>
+            <p>
+              <a href="about.html" class="text-dark">About Us</a>
+            </p>
+            <p>
+              <a href="#client" class="text-dark">Partners</a>
+            </p>
+            <p>
+              <a href="contact.html" class="text-dark">Contact Us</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#Investigation" class="text-dark">Credit Investigation</a>
+            </p>
+            <p>
+              <a href="#" class="text-dark">Dept Recovery</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Dept Acquisition</a>
+            </p>
+            <p>
+              <a href="#!" class="text-dark">Legal Services</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="bi bi-geo-alt"></i></i> Ortigas, Pasig City</p>
+            <p><i class="bi bi-envelope-at"></i> SpartaCollects@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i></p>
+            <p><i class="fas fa-print mr-3"></i> </p>
+            <a href="" class="text-dark me-4"><i class="bi bi-facebook"></i></a>
+            <a href="" class="text-dark me-4"><i class="bi bi-instagram"></i></a>
+            <a href="" class="text-dark me-4"><i class="bi bi-linkedin"></i></a>
           </div>
         </div>
       </div>
-    </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    </section>
+
+    <!-- Copyright -->
+    <div
+         class="text-center p-3 bg-dark text-light"
+         >
+      © 2024 Copyright.
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
   </body>
